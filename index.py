@@ -1,4 +1,4 @@
-import os
+toimport os
 from io import BytesIO
 from queue import Queue
 import requests
@@ -9,7 +9,7 @@ from movies_scraper import search_movies, get_movie
 
 
 TOKEN = os.getenv("TOKEN")
-URL = os.getenv("hitmovies-swart.vercel.app")
+URL = "hitmovies-swart.vercel.app"
 bot = Bot(TOKEN)
 
 
